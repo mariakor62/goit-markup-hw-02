@@ -34,8 +34,6 @@ body {
   font-weight: 700;
   color: #2196f3;
 }
-.web-studio {
-}
 .link {
   color: #000000;
 }
@@ -68,7 +66,7 @@ body {
 .hero-title {
   color: #ffffff;
 }
-.btn-hero {
+.btn-text {
   background-color: #2196f3;
   color: #ffffff;
 }
