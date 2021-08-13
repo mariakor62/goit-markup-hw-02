@@ -1,0 +1,84 @@
+/* main color #ffffff*/
+/*second color #F5F4FA*/
+/* hero fill #2F303A */
+/* footer fill #2F303A */
+/* emphasis #2196F3 */
+/* logo color #2196F3, #000000 */
+/* font color #212121*/
+/* second font color #2196F3, #212121, #757575 */
+/* font Roboto 400,500,700,900 */
+/* font Raleway 700 */
+/* sections */
+/* font-family: 'Raleway', sans-serif;
+   'Roboto', sans-serif; */
+:root {
+  --primary-text-color: #000000;
+  --title-text-color: #000000;
+  --accent-color: #2196f3;
+}
+body {
+  color: #000000;
+  font-family: 'Roboto', sans-serif;
+
+  background-color: #ffffff;
+}
+.list {
+  list-style: none;
+}
+/* header */
+.header {
+  background-color: #fff;
+}
+.web {
+  color: #2196f3;
+}
+.web-studio {
+}
+.link {
+  color: #000000;
+}
+.logo {
+  color: #000000;
+}
+.logo:active {
+  color: #2196f3;
+}
+.logo:hover,
+.link-logo:focus {
+  color: #2196f3;
+}
+
+.section-title {
+  color: #000000;
+}
+/* site nav */
+.nav {
+  color: #000000;
+}
+.nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+/* hero */
+.hero {
+  background-color: #000000;
+}
+.hero-title {
+  color: #ffffff;
+}
+.btn-hero {
+  background-color: #2196f3;
+}
+.btn-text {
+  color: #ffffff;
+}
+/* Features */
+.list-features {
+  background-color: rgb(89, 0, 255);
+}
+.list-services {
+  background-color: lightsalmon;
+}
+.list-team {
+  background-color: rgb(184, 61, 184);
+}
