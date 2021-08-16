@@ -25,17 +25,13 @@ body {
 .header {
 }
 .header-link {
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #212121;
 }
-.link:hover,
-.link:focus {
-  color: #2196f3;
-}
+
 /* Webstudio logo */
 .web {
   font-weight: 700;
@@ -66,17 +62,19 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-
   color: #757575;
 }
-/* font-family: 'Raleway', sans-serif; */
-/* font-weight: 400; */
-/* color: #000000; */
-
 /* site nav */
-
 .header-nav .list > li .link:hover,
-.link:focus {
+.header-nav .list > li .link:focus {
+  color: #2196f3;
+}
+.header-tel:hover,
+.header-tel:focus {
+  color: #2196f3;
+}
+.header-mail:hover,
+.header-mail:focus {
   color: #2196f3;
 }
 .header-nav .list > li .link {
@@ -103,13 +101,11 @@ body {
   font-size: 16px;
   line-height: 1.87;
   /* identical to box height, or 187% */
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
   background-color: #2196f3;
 }
+
 /* Features section */
 
 .features-list {
@@ -163,7 +159,7 @@ body {
   font-size: 16px;
   line-height: 1.18;
   /* identical to box height */
-  text-align: center;
+  /* text-align: center; */
   letter-spacing: 0.03em;
   color: #212121;
 }
@@ -172,7 +168,7 @@ body {
   font-size: 16px;
   line-height: 1.18;
   /* identical to box height */
-  text-align: center;
+  /* text-align: center; */
   letter-spacing: 0.03em;
   color: #757575;
 }
@@ -231,6 +227,9 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+}
+.button {
+  cursor: pointer;
 }
 .projects {
 }
