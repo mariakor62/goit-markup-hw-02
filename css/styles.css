@@ -21,6 +21,12 @@ body {
 .link {
   text-decoration: none;
 }
+.link:hover,
+.link:focus,
+.link:active {
+  color: #2196f3;
+}
+
 /* Header */
 .header {
 }
@@ -66,7 +72,8 @@ body {
 }
 /* site nav */
 .header-nav .list > li .link:hover,
-.header-nav .list > li .link:focus {
+.header-nav .list > li .link:focus,
+.header-nav .list > li .link:active {
   color: #2196f3;
 }
 .header-tel:hover,
@@ -96,6 +103,7 @@ body {
   text-transform: uppercase;
   color: #ffffff;
 }
+/* Hero button */
 .button-text {
   font-weight: 700;
   font-size: 16px;
@@ -230,6 +238,12 @@ body {
 }
 .button {
   cursor: pointer;
+}
+.button:active,
+.button:hover,
+.button:focus {
+  color: #ffffff;
+  background-color: #2196f3;
 }
 .projects {
 }
