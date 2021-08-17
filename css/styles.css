@@ -21,11 +21,10 @@ body {
 .link {
   text-decoration: none;
 }
-.link:hover,
-.link:focus,
-.link:active {
-  color: #2196f3;
-}
+/* .link:hover, */
+/* .link:focus { */
+/* .link:active { */
+/* color: #2196f3; */
 
 /* Header */
 .header {
@@ -40,6 +39,7 @@ body {
 
 /* Webstudio logo */
 .web {
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -53,7 +53,7 @@ body {
   line-height: 1.19;
   /* identical to box height */
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color: #212121;
 }
 .header-mail {
   font-weight: 500;
@@ -72,7 +72,9 @@ body {
 }
 /* site nav */
 .header-nav .list > li .link:hover,
-.header-nav .list > li .link:focus,
+.header-nav .list > li .link:focus {
+  color: #2196f3;
+}
 .header-nav .list > li .link:active {
   color: #2196f3;
 }
@@ -84,9 +86,7 @@ body {
 .header-mail:focus {
   color: #2196f3;
 }
-.header-nav .list > li .link {
-  color: #212121;
-}
+
 /* Hero */
 .hero {
   background-color: #2f303a;
@@ -105,6 +105,7 @@ body {
 }
 /* Hero button */
 .button-text {
+  background-color: #757575;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -190,6 +191,14 @@ body {
 .contacts-box {
   background-color: #2f303a;
 }
+.studio {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
 .contacts-address {
   font-weight: 400;
   font-size: 14px;
@@ -214,14 +223,7 @@ body {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-.studio {
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  /* identical to box height */
-  letter-spacing: 0.03em;
-  color: #ffffff;
-}
+
 .logo {
 }
 .web {
@@ -241,6 +243,7 @@ body {
   color: #212121;
 }
 .button {
+  background-color: #f5f4fa;
   cursor: pointer;
 }
 .button:active,
