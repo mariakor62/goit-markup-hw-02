@@ -111,6 +111,10 @@ body {
   /* identical to box height, or 187% */
   letter-spacing: 0.06em;
   color: #ffffff;
+}
+.button-text:hover,
+.button-text:focus,
+.button-text:active {
   background-color: #2196f3;
 }
 
