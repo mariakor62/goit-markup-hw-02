@@ -15,20 +15,17 @@ body {
   font-family: 'Roboto', sans-serif;
   background-color: #ffffff;
 }
-.list {
+ul {
   list-style: none;
 }
-.link {
+a {
   text-decoration: none;
 }
-/* .link:hover, */
-/* .link:focus { */
-/* .link:active { */
-/* color: #2196f3; */
 
 /* Header */
 .header {
 }
+
 .header-link {
   font-weight: 500;
   font-size: 14px;
@@ -36,8 +33,8 @@ body {
   letter-spacing: 0.02em;
   color: #212121;
 }
-
 /* Webstudio logo */
+
 .web {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -47,7 +44,27 @@ body {
   letter-spacing: 0.03em;
   color: #2196f3;
 }
+/* Footer Studio logo*/
+.studio {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.contacts-tel:hover,
+.contacts-tel:focus {
+  color: #2196f3;
+}
+.contacts-mail:hover,
+.contacts-mail:focus {
+  color: #2196f3;
+}
+
 .logo {
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -55,12 +72,12 @@ body {
   letter-spacing: 0.03em;
   color: #212121;
 }
+
 .header-mail {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-
   color: #757575;
 }
 .header-tel {
@@ -70,14 +87,15 @@ body {
   letter-spacing: 0.02em;
   color: #757575;
 }
-/* site nav */
-.header-nav .list > li .link:hover,
-.header-nav .list > li .link:focus {
+/* .header-nav > li .link:active { */
+/* color: #2196f3; */
+/* } */
+
+.header-link:hover,
+.header-link:focus {
   color: #2196f3;
 }
-.header-nav .list > li .link:active {
-  color: #2196f3;
-}
+
 .header-tel:hover,
 .header-tel:focus {
   color: #2196f3;
@@ -114,8 +132,7 @@ body {
   color: #ffffff;
 }
 .button-text:hover,
-.button-text:focus,
-.button-text:active {
+.button-text:focus {
   background-color: #2196f3;
 }
 
@@ -156,6 +173,7 @@ body {
   color: #757575;
 }
 .team {
+  background: #f5f4fa;
 }
 .team-title {
   font-weight: 700;
@@ -191,15 +209,9 @@ body {
 .contacts-box {
   background-color: #2f303a;
 }
-.studio {
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  /* identical to box height */
-  letter-spacing: 0.03em;
-  color: #ffffff;
-}
+
 .contacts-address {
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -229,6 +241,7 @@ body {
 .web {
 }
 /* Portfolio page */
+/* Projects section */
 .menu {
 }
 .menu-list {
@@ -246,12 +259,13 @@ body {
   background-color: #f5f4fa;
   cursor: pointer;
 }
-.button:active,
+
 .button:hover,
 .button:focus {
   color: #ffffff;
   background-color: #2196f3;
 }
+
 .projects {
 }
 .projects-list {
